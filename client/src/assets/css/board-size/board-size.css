@@ -1,0 +1,79 @@
+body{
+    background-size: 85%;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.board{
+    align-items: center;
+    margin-left: 15%;
+    width: 50%;
+    aspect-ratio: 1 / 1;
+}
+
+.panel, .ui-panel, .navigation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.panel{
+    height: 80%;
+    width: 20%;
+    justify-content: space-evenly;
+    background-repeat: no-repeat;
+    background-size: 100%  100%;
+    background-position: center;
+    padding-top: 3%;
+}
+
+.ui-panel li, .navigation li{
+    height: 33%;
+}
+.ui-panel, .navigation{
+    width: 50%;
+    height: 40%;
+    justify-content: center;
+}
+
+.ui-panel img, .navigation img{
+    height:90%;
+    width: 95%;
+}
+
+.big ul, .medium ul, .small ul{
+    display: grid;
+}
+
+.small ul{
+    grid-template-columns: repeat(10, 10fr);
+}
+
+.small li, .medium li, .big li{
+    border-style: solid;
+    aspect-ratio: 1 / 1;
+}
+
+.small li{
+    border-width: 0.2vh;
+}
+
+.medium ul{
+    grid-template-columns: repeat(15, 15fr);
+}
+
+.medium li{
+    border-width: 0.15vh;
+}
+
+.big ul{
+    grid-template-columns: repeat(20, 20fr);
+}
+
+.big li{
+    border-width: 0.1vh;
+}

@@ -1,0 +1,59 @@
+.space-skin{
+    background-image: url("../../media/space-skin/background-planet-space.png");
+}
+
+.space-skin .lost-h1{
+    background-image: url("../../media/space-skin/lost-banner-space.png");
+}
+
+.space-skin .lost-h2{
+    background-image: url("../../media/space-skin/lost-astroid.png");
+}
+
+.space-skin .won-h1{
+    background-image: url("../../media/space-skin/won-banner-space.png");
+}
+
+.space-skin .won-h2{
+    background-image: url("../../media/space-skin/won-astroid.png");
+}
+
+.sea-skin{
+    background-image: url("../../media/sea-skin/background horizontal.jpg");
+}
+
+.sea-skin .lost-h1{
+    background-image: url("../../media/sea-skin/lost.png");
+}
+
+.sea-skin .lost-h2{
+    background-image: url("../../media/sea-skin/oopsie.png");
+}
+
+.sea-skin .won-h1{
+    background-image: url("../../media/sea-skin/won.png");
+}
+
+.sea-skin .won-h2{
+    background-image: url("../../media/sea-skin/obliterated.png");
+}
+
+.bug-skin{
+    background-image: url("../../media/bug-skin/background-forest.jpg");
+}
+
+.bug-skin .lost-h1{
+    background-image: url("../../media/bug-skin/lost.png");
+}
+
+.bug-skin .lost-h2{
+    background-image: url("../../media/bug-skin/oopsie.png");
+}
+
+.bug-skin .won-h1{
+    background-image: url("../../media/bug-skin/won.png");
+}
+
+.bug-skin .won-h2{
+    background-image: url("../../media/bug-skin/obliterated.png");
+}

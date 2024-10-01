@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Battleship</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/general/screen.css">
+    <link rel="stylesheet" href="assets/css/general/screen-skins.css">
+    <link rel="stylesheet" href="assets/css/index/index.css">
+    <link rel="stylesheet" href="assets/css/index/index-skins.css">
+
+    <script src="assets/js/data/config.js"></script>
+
+    <script src="assets/js/data-connector/error-handler.js"></script>
+    <script src="assets/js/data-connector/api-communication-abstractor.js"></script>
+
+    <script src="assets/js/data-connector/local-storage-abstractor.js"></script>
+    <script src="assets/js/helpers/helpers.js"></script>
+    <script src="assets/js/screens/start-screen.js"></script>
+    <script src="assets/js/initialiser.js"></script>
+    <script src="assets/js/cursor-controller.js"></script>
+    <script src="assets/js/helpers/navigation.js"></script>
+    <script src="assets/js/skins/skin-picker.js"></script>
+    <script src="assets/js/audio/audio-manager.js"></script>
+    <script src="assets/js/skins/index-skin-renderer.js"></script>
+
+
+</head>
+<body>
+<header>
+    <div class="flex-container">
+        <ul class="skins">
+            <li><img src="assets/media/icon-bug.png" alt="icon insects" title="bug-skin"></li>
+            <li><img src="assets/media/icon-rocket.png" alt="icon spaceship" title="space-skin"></li>
+            <li><img src="assets/media/icon-boat.png" alt="icon boat" title="sea-skin"></li>
+        </ul>
+    </div>
+    <div class="audio">
+    </div>
+</header>
+<main>
+    <div class="errormessages">
+        <p></p>
+    </div>
+</main>
+
+
+<template class ="audio">
+    <div>
+        <img id="volume-button-general" src="" alt="volume-button-general" title="volume-button-general">
+        <div class="volume hidden">
+            <img class="cursor-volume" src="" alt="fly button" title="fly volume button">
+            <input class="styled-slider slider-progress" type="range" id="volume-slider" min="0" max="0.6"
+                   value="0.6"
+                   step="0.06">
+        </div>
+    </div>
+</template>
+
+
+<template id="images-main">
+    <div>
+        <div class="title-banner">
+            <img class="banner" src="" alt="title panel" title="title panel">
+            <img class="bee" src="" alt="hit" title="hit">
+        </div>
+        <img class="start" src="" alt="start_button"
+             title="start_button" id="start-button">
+    </div>
+</template>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+.space-skin{
+    background-image: url("../../media/space-skin/background-planet-space.png");
+    background-size: 100%;
+}
+
+.space-skin article {
+    background-image: url("../../media/space-skin/metalRoundHorizontal.png");
+}
+
+.sea-skin article {
+    background-image: url("../../media/sea-skin/small-panel.png");
+}
+
+.bug-skin article{
+    background-image: url("../../media/bug-skin/wooden-panel-small.png");
+}
+
+.space-skin article:hover, .space-skin article.selected {
+    background-image: url("../../media/space-skin/metalRoundVertical.png");
+}
+
+.space-skin article img, .space-skin h2, .space-skin p, .space-skin form{
+    border-color: #ffffff;
+}
+
+.space-skin h1{
+    color: #58b2cc;
+}
+
+.sea-skin {
+    background-image: url("../../media/sea-skin/background horizontal.jpg");
+    background-size: 100%;
+}
+
+.sea-skin article:hover, .sea-skin article.selected {
+    background-image: url("../../media/sea-skin/big-panel.png");
+}
+
+.sea-skin article img, .sea-skin h2, .sea-skin p, .sea-skin form{
+    border-color: #00008b;
+}
+
+.sea-skin h1 {
+    color: #ffffff;
+}
+
+.bug-skin{
+    background-image: url("../../media/bug-skin/background-forest.jpg");
+}
+
+.bug-skin article:hover, .bug-skin article.selected {
+    background-image: url("../../media/bug-skin/wooden-panel.png");
+}
+
+.bug-skin article img, .bug-skin h2, .bug-skin p, .bug-skin form {
+  border-color: #8b4513;
+}
+
+.bug-skin h1 {
+    color: #8b0000;
+}

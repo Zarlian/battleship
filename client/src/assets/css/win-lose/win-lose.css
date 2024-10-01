@@ -1,0 +1,95 @@
+header img {
+    width: 5%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1, h2{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center;
+    font-size: 0.001rem;
+    color: transparent;
+}
+
+h1{
+    height: 25vh;
+    width: 70vw;
+    animation: lower 1s forwards;
+    z-index: 100;
+}
+
+@keyframes lower {
+    from {
+        transform: translateY(-31.25rem);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+h2{
+    width: 30vw;
+    height:35vh;
+    animation-name: fall;
+    animation-duration: 150ms;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes fall {
+
+    from {
+        opacity: 0;
+        transform: translateY(-162.5rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+div {
+    width: 35vw;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0;
+    animation-name: fade-in;
+    animation-delay: 3500ms;
+    animation-duration: 100ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.volume, .volume div {
+    animation: none;
+    opacity: 1;
+}
+
+.volume{
+    flex-direction: column;
+}
+
+.volume div{
+    flex-direction: row;
+    justify-content: start;
+}
+
+#rematch, #new-random{
+    width: 15vw;
+}
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Battleship</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/general/screen.css">
+    <link rel="stylesheet" href="assets/css/general/screen-skins.css">
+    <link rel="stylesheet" href="assets/css/win-lose/win-lose.css">
+    <link rel="stylesheet" href="assets/css/win-lose/win-lose-skins.css">
+
+    <script src="assets/js/data/config.js"></script>
+
+    <script src="assets/js/data-connector/error-handler.js"></script>
+    <script src="assets/js/data-connector/api-communication-abstractor.js"></script>
+
+    <script src="assets/js/data-connector/local-storage-abstractor.js"></script>
+    <script src="assets/js/screens/win-lose-screen.js"></script>
+    <script src="assets/js/initialiser.js"></script>
+    <script src="assets/js/game/are-you-winning-son.js"></script>
+    <script src="assets/js/game/post-game-data.js"></script>
+    <script src="assets/js/cursor-controller.js"></script>
+    <script src="assets/js/board/randomizer.js"></script>
+    <script src="assets/js/helpers/get-coordinates.js"></script>
+    <script src="assets/js/skins/skin-picker.js"></script>
+    <script src="assets/js/audio/audio-manager.js"></script>
+    <script src="assets/js/helpers/navigation.js"></script>
+    <script src="assets/js/helpers/helpers.js"></script>
+    <script src="assets/js/helpers/get-fleet.js"></script>
+    <script src="assets/js/board/ship-placer.js"></script>
+    <script src="assets/js/skins/win-screen-skin-renderer.js"></script>
+
+</head>
+<body>
+<header class="buttons-header">
+</header>
+<main>
+    <h1>congratulations / oops</h1>
+    <div class="continue-buttons">
+        <template class="continue-buttons">
+            <div>
+                <img src="" alt="Rematch" title="Rematch" id="rematch">
+                <img src="" alt="New Random game" title="New Random game"
+                     id="new-random">
+            </div>
+        </template>
+    </div>
+    <h2>you destroyed all ships / all your ships got destroyed</h2>
+    <p id="status" class="hidden">choose rematch type</p>
+</main>
+</body>
+</html>

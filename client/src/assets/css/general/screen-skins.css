@@ -1,0 +1,71 @@
+.space-skin .volume{
+    background-image: url("../../media/space-skin/metalRoundHorizontal.png");
+}
+
+.space-skin img, .space-skin a, .space-skin input, .space-skin article, .space-skin li {
+    cursor: url("../../media/space-skin/spaceship-hover.png"), pointer;
+}
+
+.space-skin.left, .space-skin.left label{
+    cursor: url("../../media/space-skin/spaceship-left.png"), auto;
+}
+
+.space-skin.right, .space-skin.right label{
+    cursor: url("../../media/space-skin/spaceship-right.png"), auto;
+}
+
+.space-skin.still, .space-skin.still label{
+    cursor: url("../../media/space-skin/spaceship-hover.png"), auto;
+}
+
+.space-skin .placed{
+    border-color: white;
+}
+
+.sea-skin .volume{
+    background-image: url("../../media/sea-skin/small-panel.png");
+}
+
+.sea-skin img, .sea-skin a, .sea-skin input, .sea-skin article, .sea-skin li {
+    cursor: url("../../media/sea-skin/squid-hover.png"), pointer;
+}
+
+.sea-skin.left, .sea-skin.left label{
+    cursor: url("../../media/sea-skin/squid-left.png"), auto;
+}
+
+.sea-skin.right, .sea-skin.right label{
+    cursor: url("../../media/sea-skin/squid-right.png"), auto;
+}
+
+.sea-skin.still, .sea-skin.still label{
+    cursor: url("../../media/sea-skin/squid-hover.png"), auto;
+}
+
+.sea-skin .placed{
+    border-color: #00008b;
+}
+
+.bug-skin .volume{
+    background-image: url("../../media/bug-skin/wooden-panel-small.png");
+}
+
+.bug-skin img, .bug-skin a, .bug-skin input, .bug-skin article, .bug-skin li{
+    cursor: url("../../media/bug-skin/hover-fly.png"), pointer;
+}
+
+.bug-skin.right, .bug-skin.right label{
+    cursor: url("../../media/bug-skin/right-flying-fly.png"), auto;
+}
+
+.bug-skin.left, .bug-skin.left label{
+    cursor: url("../../media/bug-skin/left-flying-fly.png"), auto;
+}
+
+.bug-skin.still, .bug-skin.still label{
+    cursor: url("../../media/bug-skin/hover-fly.png"), auto;
+}
+
+.bug-skin .placed{
+    border-color: #8b4513;
+}

@@ -1,0 +1,74 @@
+.space-skin{
+    background-image: url("../../media/space-skin/background-planet-space.png");
+}
+
+.space-skin .volume{
+    background-image: url("../../media/space-skin/metalRoundHorizontal.png");
+}
+
+.space-skin input[type="submit"]{
+    background-image: url("../../media/space-skin/to-war-button-space.png");
+}
+
+.space-skin label{
+    background-image: url("../../media/space-skin/choose-name-banner-space.png");
+}
+
+.space-skin input[type="text"]{
+    color: #58b2cc;
+    background-image: url("../../media/space-skin/input.png");
+}
+
+.space-skin ::placeholder{
+    color: #58b2cc;
+}
+
+.sea-skin {
+    background-image: url("../../media/sea-skin/background horizontal.jpg");
+}
+
+.sea-skin .volume{
+    background-image: url("../../media/sea-skin/small-panel.png");
+}
+
+.sea-skin input[type="submit"]{
+    background-image: url("../../media/sea-skin/button-to-war.png");
+}
+
+.sea-skin label{
+    background-image: url("../../media/sea-skin/panel-choose-your-name-commander.png");
+}
+
+.sea-skin input[type="text"]{
+    color: #ffffff;
+    background-image: url("../../media/sea-skin/input.png");
+}
+
+.sea-skin ::placeholder{
+    color: #808080;
+}
+
+.bug-skin{
+    background-image: url("../../media/bug-skin/background-forest.jpg");
+}
+
+.bug-skin .volume{
+    background-image: url("../../media/bug-skin/wooden-panel-small.png");
+}
+
+.bug-skin input[type="submit"]{
+    background-image: url("../../media/bug-skin/button-to-war.png");
+}
+
+.bug-skin label{
+    background-image: url("../../media/bug-skin/panel-choose-your-name-commander.png");
+}
+
+.bug-skin input[type="text"]{
+    color: #795C34;
+    background-image: url("../../media/bug-skin/input.png");
+}
+
+.bug-skin ::placeholder{
+    color: #795C34;
+}

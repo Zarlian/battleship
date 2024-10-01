@@ -1,0 +1,37 @@
+.space-skin {
+    background-image: url("../../media/space-skin/background-board-placement-space.jpg");
+    background-size: 100%;
+}
+
+.space-skin .panel{
+    background-image: url("../../media/space-skin/metalRoundVertical.png");
+}
+
+.space-skin .big li, .space-skin .medium li, .space-skin .small li, .space-skin .big ul, .space-skin .medium ul, .space-skin .small ul{
+    border-color: #ffffff;
+}
+
+.sea-skin {
+    background-image: url("../../media/sea-skin/background board placement.jpg");
+    background-size: 100%;
+}
+
+.sea-skin .big li, .sea-skin .medium li, .sea-skin .small li, .sea-skin .big ul, .sea-skin .medium ul, .sea-skin .small ul{
+    border-color: #00008b;
+}
+
+.sea-skin .panel{
+    background-image: url("../../media/sea-skin/big-panel.png");
+}
+
+.bug-skin{
+    background-image: url("../../media/bug-skin/background-boardplacement.jpg");
+}
+
+.bug-skin .big li, .bug-skin .medium li, .bug-skin .small li, .bug-skin .big ul, .bug-skin .medium ul, .bug-skin .small ul{
+    border-color: #8b4513;
+}
+
+.bug-skin .panel{
+    background-image: url("../../media/bug-skin/wooden-panel.png");
+}

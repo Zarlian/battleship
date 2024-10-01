@@ -1,0 +1,8 @@
+{
+  "http": {
+    "port": 8005
+  },
+  "api" : {
+    "url": "C:/Users/clint/Documents/TI/battleship/server/openAPI-battleship.yaml"
+  }
+}

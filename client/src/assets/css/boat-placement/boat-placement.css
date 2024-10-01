@@ -1,0 +1,114 @@
+body{
+    background-size: 85%;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.small ul, .medium ul, .big ul {
+    display: grid;
+}
+
+.small ul{
+    grid-template-columns: repeat(10, 10fr);
+}
+
+.small li, .medium li, .big li, .place-boats-board{
+    border-style: solid;
+    aspect-ratio: 1 / 1;
+}
+
+.small li{
+    border-width: 0.2vh;
+}
+
+.medium ul{
+    grid-template-columns: repeat(15, 15fr);
+}
+
+.medium li{
+    border-width: 0.15vh;
+}
+
+.big ul{
+    grid-template-columns: repeat(20, 20fr);
+}
+
+.big li{
+    border-width: 0.1vh;
+}
+.place-boats-board{
+    margin-left: 15%;
+    width: 50%;
+    margin-bottom: 5vh;
+    border-width: 0.1vh;
+}
+
+.buttons, nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons{
+    width: 20%;
+    height: 80%;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+img{
+    display: block;
+    height: 40%;
+}
+
+.shuffle-reset, nav{
+    height: 22%;
+}
+.boats-board{
+    margin: 0.5rem;
+    height: 40%;
+    width: 80%;
+}
+
+.boats-board div{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    height: 20%;
+    width: 100%;
+}
+
+.ships{
+    height: 95%;
+    margin-bottom: 0.5vh;
+}
+
+.boats-board img{
+    height: 100%;
+    width: 100%;
+}
+.boats-board #carrier{
+    width: 99%;
+}
+
+.boats-board #battleship{
+    width: 80%;
+}
+.boats-board #cruiser, .boats-board #submarine{
+    width: 60%;
+}
+.boats-board #destroyer{
+    width: 40%;
+}
+
+li.filled{
+    border:none;
+}

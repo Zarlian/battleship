@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Battleship</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/general/screen.css">
+    <link rel="stylesheet" href="assets/css/general/screen-skins.css">
+    <link rel="stylesheet" href="assets/css/waiting-screen/waiting-screen.css">
+    <link rel="stylesheet" href="assets/css/waiting-screen/waiting-screen-skins.css">
+
+    <script src="assets/js/data/config.js"></script>
+
+    <script src="assets/js/data-connector/error-handler.js"></script>
+    <script src="assets/js/data-connector/api-communication-abstractor.js"></script>
+
+    <script src="assets/js/data-connector/local-storage-abstractor.js"></script>
+    <script src="assets/js/initialiser.js"></script>
+    <script src="assets/js/game/post-game-data.js"></script>
+    <script src="assets/js/screens/waiting-room-screen.js"></script>
+    <script src="assets/js/cursor-controller.js"></script>
+    <script src="assets/js/audio/audio-manager.js"></script>
+    <script src="assets/js/skins/skin-picker.js"></script>
+    <script src="assets/js/helpers/navigation.js"></script>
+    <script src="assets/js/helpers/helpers.js"></script>
+    <script src="assets/js/game/game-creator.js"></script>
+    <script src="assets/js/skins/waiting-room-skin-renderer.js"></script>
+
+
+</head>
+<body>
+<header class="buttons-header">
+</header>
+<main>
+    <div id="choose-panel"></div>
+    <div class="game-buttons">
+        <template class="game-buttons">
+            <div>
+                <div>
+                    <img class="private" src="" id="createFriendCode"
+                         alt="Create friend code" title="create friend code">
+                </div>
+                <div>
+                    <img class="join" src="" id="inputFriend" alt="Join friend"
+                         title="Join friend">
+                </div>
+                <div>
+                    <img class="random" src="" id="random" alt="Random"
+                         title="Friend">
+                </div>
+            </div>
+        </template>
+    </div>
+    <form id="setToken" class="hidden">
+        <label for="setInput"></label>
+        <input type="text" id="setInput" name="setInput" placeholder="create friend-token" autocomplete="off">
+        <input type="submit" id="submitSet" name="submitSet" value="create">
+    </form>
+    <form id="friendToken" class="hidden">
+        <label for="tokenInput"></label>
+        <input type="text" id="tokenInput" name="tokenInput" placeholder="enter friend-token" autocomplete="off">
+        <input type="submit" id="submitToken" name="submitToken" value="connect">
+    </form>
+    <div id="status"></div>
+
+</main>
+</body>
+</html>

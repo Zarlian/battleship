@@ -1,0 +1,46 @@
+.space-skin{
+    background-image: url("../../media/space-skin/background-title-page-space.png");
+}
+
+.space-skin .skins img{
+    cursor: url("../../media/space-skin/spaceship-hover.png"), auto;
+}
+
+.space-skin.right img{
+    cursor: url("../../media/space-skin/spaceship-right.png"), auto;
+}
+.space-skin.left img{
+    cursor: url("../../media/space-skin/spaceship-left.png"), auto;
+}
+
+.sea-skin{
+    background-image: url("../../media/sea-skin/background title-screen.jpg");
+    background-size: contain;
+}
+
+.sea-skin .skins img{
+    cursor: url("../../media/sea-skin/squid-hover.png"), auto;
+}
+
+.sea-skin.right img{
+    cursor: url("../../media/sea-skin/squid-right.png"), auto;
+}
+.sea-skin.left img{
+    cursor: url("../../media/sea-skin/squid-left.png"), auto;
+}
+
+.bug-skin{
+    background-image: url("../../media/bug-skin/background-titlepage-bugs.png");
+}
+
+.bug-skin .skins img {
+    cursor: url("../../media/bug-skin/hover-fly.png"), auto;
+}
+
+.bug-skin.right img{
+    cursor: url("../../media/bug-skin/right-flying-fly.png"), auto;
+}
+
+.bug-skin.left img{
+    cursor: url("../../media/bug-skin/left-flying-fly.png"), auto;
+}

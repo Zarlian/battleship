@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Battleship</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/general/screen.css">
+    <link rel="stylesheet" href="assets/css/general/screen-skins.css">
+    <link rel="stylesheet" href="assets/css/board-size/board-size.css">
+    <link rel="stylesheet" href="assets/css/board-size/board-size-skins.css">
+
+
+    <script src="assets/js/data/config.js"></script>
+    <script src="assets/js/data-connector/error-handler.js"></script>
+    <script src="assets/js/data-connector/api-communication-abstractor.js"></script>
+
+    <script src="assets/js/data-connector/local-storage-abstractor.js"></script>
+    <script src="assets/js/helpers/helpers.js"></script>
+    <script src="assets/js/skins/skin-picker.js"></script>
+    <script src="assets/js/initialiser.js"></script>
+    <script src="assets/js/screens/board-selector-screen.js"></script>
+    <script src="assets/js/board/board-generator.js"></script>
+    <script src="assets/js/cursor-controller.js"></script>
+    <script src="assets/js/audio/audio-manager.js"></script>
+    <script src="assets/js/helpers/navigation.js"></script>
+    <script src="assets/js/board/board-size-picker.js"></script>
+    <script src="assets/js/skins/board-size-skin-renderer.js"></script>
+
+
+</head>
+<body>
+<header class="buttons-header">
+</header>
+<main>
+    <div class="board place-boats-board">
+    </div>
+    <div class="panel">
+        <template class="user-panel">
+        <ul class="ui-panel">
+            <li><img class="small-button" src="" alt="small" title="small board"></li>
+            <li><img class="medium-button" src="" alt="medium" title="medium board"></li>
+            <li><img class="big-button" src="" alt="big" title="big board"></li>
+        </ul>
+        </template>
+        <template class="navigation">
+        <ul class="navigation">
+            <li><img class="next-page-boat-placement" src="" alt="next" title="next">
+            </li>
+            <li><img src="" alt="back" title="back" id="back-button"></li>
+        </ul>
+        </template>
+    </div>
+</main>
+
+
+<div class="errormessages">
+    <p></p>
+</div>
+</body>
+</html>

@@ -1,0 +1,83 @@
+.space-skin{
+    background-image: url("../../media/space-skin/background-board-placement-space.jpg");
+}
+
+.space-skin .summary{
+    background-image: url("../../media/space-skin/metalRoundVertical.png");
+}
+
+.space-skin .big li, .space-skin .medium li, .space-skin .small li, .space-skin #enemy-play-board, .space-skin #your-play-board {
+    border-color: #ffffff;
+}
+
+.space-skin h2, .space-skin h3, .space-skin h4{
+    color: #fff8e8;
+}
+
+.space-skin .title-container{
+    background-image: url("../../media/space-skin/title-panel-empty.png");
+}
+
+.space-skin #enemy-boats, .space-skin #your-boats {
+    background-image: url("../../media/space-skin/metalRoundVertical.png");
+}
+
+.sea-skin{
+    background-image: url("../../media/sea-skin/background board placement.jpg");
+}
+
+.sea-skin .summary{
+    background-image: url("../../media/sea-skin/big-panel.png");
+}
+
+.sea-skin .big li, .sea-skin .medium li, .sea-skin .small li, .sea-skin #enemy-play-board, .sea-skin #your-play-board {
+    border-color: #00008b;
+}
+
+.sea-skin h2, .sea-skin h3, .sea-skin h4{
+    color: #fff8e8;
+}
+
+.sea-skin .title-container {
+    background-image: url("../../media/sea-skin/titel-panel-empty.png");
+}
+
+.sea-skin #enemy-boats, .sea-skin #your-boats {
+    background-image: url("../../media/sea-skin/big-panel.png");
+}
+
+.bug-skin {
+    background-image: url("../../media/bug-skin/background-boardplacement.jpg");
+}
+
+.bug-skin .summary{
+    background-image: url("../../media/bug-skin/wooden-panel.png");
+}
+
+.bug-skin .big li, .bug-skin .medium li, .bug-skin .small li, .bug-skin #enemy-play-board, .bug-skin #your-play-board {
+    border-color: #8b4513;
+}
+
+.bug-skin h2, .bug-skin h3, .bug-skin h4{
+    color: #8b0000;
+}
+
+.bug-skin .title-container {
+    background-image: url("../../media/bug-skin/titel-panel-empty.png");
+}
+
+.bug-skin #enemy-boats, .bug-skin #your-boats {
+    background-image: url("../../media/bug-skin/wooden-panel.png");
+}
+
+.space-skin .enemy-board li:hover, .space-skin li.salvo {
+    background-color: #800080;
+}
+
+.sea-skin .enemy-board li:hover, .sea-skin li.salvo {
+    background-color: #191970;
+}
+
+.bug-skin .enemy-board li:hover, .bug-skin li.salvo {
+    background-color: #006400;
+}

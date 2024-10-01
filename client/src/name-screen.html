@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>name-screen</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/general/screen.css">
+    <link rel="stylesheet" href="assets/css/name-screen/name-screen.css">
+    <link rel="stylesheet" href="assets/css/name-screen/name-screen-skins.css">
+    <link rel="stylesheet" href="assets/css/general/screen-skins.css">
+
+    <script src="assets/js/data/config.js"></script>
+
+    <script src="assets/js/data-connector/error-handler.js"></script>
+    <script src="assets/js/data-connector/api-communication-abstractor.js"></script>
+
+    <script src="assets/js/data-connector/local-storage-abstractor.js"></script>
+
+    <script src="assets/js/screens/name-screen.js"></script>
+    <script src="assets/js/initialiser.js"></script>
+    <script src="assets/js/cursor-controller.js"></script>
+    <script src="assets/js/skins/skin-picker.js"></script>
+    <script src="assets/js/audio/audio-manager.js"></script>
+    <script src="assets/js/helpers/navigation.js"></script>
+    <script src="assets/js/helpers/helpers.js"></script>
+
+
+</head>
+<body>
+<header class="buttons-header">
+</header>
+<main>
+    <form action="#" method="get">
+        <label for="name">Choose your name commander</label>
+        <input type="text" required="required" id="name" placeholder="The Exterminator" autocomplete="off"
+               maxlength="10">
+        <input type="submit" value="TO WAR!!!">
+    </form>
+    <div class="errormessages">
+        <p></p>
+    </div>
+</main>
+</body>
+</html>

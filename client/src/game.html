@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battleship</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/general/screen.css">
+    <link rel="stylesheet" href="assets/css/general/screen-skins.css">
+    <link rel="stylesheet" href="assets/css/game-screen/game-screen.css">
+    <link rel="stylesheet" href="assets/css/game-screen/game-screen-skins.css">
+
+    <script src="assets/js/data/config.js"></script>
+
+    <script src="assets/js/data-connector/error-handler.js"></script>
+    <script src="assets/js/data-connector/api-communication-abstractor.js"></script>
+
+    <script src="assets/js/data-connector/local-storage-abstractor.js"></script>
+    <script src="assets/js/initialiser.js"></script>
+    <script src="assets/js/game/commander-renderer.js"></script>
+    <script src="assets/js/game/render-game.js"></script>
+    <script src="assets/js/board/board-generator.js"></script>
+    <script src="assets/js/helpers/get-game-info.js"></script>
+    <script src="assets/js/game/post-game-data.js"></script>
+    <script src="assets/js/game/gameplay/fire.js"></script>
+    <script src="assets/js/helpers/get-coordinates.js"></script>
+    <script src="assets/js/cursor-controller.js"></script>
+    <script src="assets/js/helpers/get-fleet.js"></script>
+    <script src="assets/js/game/gameplay/move.js"></script>
+    <script src="assets/js/audio/audio-manager.js"></script>
+    <script src="assets/js/skins/skin-picker.js"></script>
+    <script src="assets/js/helpers/navigation.js"></script>
+    <script src="assets/js/helpers/helpers.js"></script>
+    <script src="assets/js/board/ship-placer.js"></script>
+    <script src="assets/js/screens/game-screen.js"></script>
+    <script src="assets/js/game/gameplay/bullet.js"></script>
+    <script src="assets/js/skins/game-screen-skin-picker.js"></script>
+
+
+</head>
+<body>
+<header class="buttons-header">
+</header>
+<main>
+
+    <h1>Battle of the bugs</h1>
+    <article class="summary hidden">
+        <h2>History moves</h2>
+        <div></div>
+    </article>
+    <div class="title-container"><h4 id="whoTurn">whose turn is it?</h4></div>
+    <div id="game-play">
+        <section id="your-boats">
+            <h2>your boats:</h2>
+            <template class="boats">
+            <ul>
+                <li class="carrier"><img class="carrier-ship" src=""
+                                         alt="carrier" title="carrier"></li>
+                <li class="battleship"><img class="battleship-ship"
+                                            src="" alt="battleship"
+                                            title="battleship"></li>
+                <li class="cruiser"><img class="cruiser-ship" src=""
+                                         alt="cruiser" title="cruiser"></li>
+                <li class="submarine"><img class="submarine-ship"
+                                           src="" alt="submarine"
+                                           title="submarine"></li>
+                <li class="destroyer"><img class="destroyer-ship"
+                                           src="" alt="destroyer"
+                                           title="destroyer"></li>
+            </ul>
+            </template>
+        </section>
+        <section class="your-board">
+            <div class="title-container"><h3 id="my-commander">commander-name</h3></div>
+            <div id="your-play-board"></div>
+        </section>
+        <section class="enemy-board">
+            <div class="title-container"><h3 id="enemy-commander">enemy-name</h3></div>
+            <div id="enemy-play-board"></div>
+        </section>
+        <section id="enemy-boats">
+            <h2>enemy boats:</h2>
+        </section>
+
+    </div>
+    <div class="buttons">
+        <template class="buttons">
+            <div>
+            <div id="close-history" class="hidden"><img class="close" src="" id="close"
+                                                        alt="close" title="close"></div>
+            <div id="history-button"><img class="history" id="open-history"
+                                          src="" alt="History" title="History">
+            </div>
+            </div>
+        </template>
+    </div>
+    <div class="errormessages">
+        <p></p>
+    </div>
+</main>
+</body>
+</html>

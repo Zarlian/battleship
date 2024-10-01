@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Battleship</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/general/screen.css">
+    <link rel="stylesheet" href="assets/css/general/screen-skins.css">
+    <link rel="stylesheet" href="assets/css/boat-placement/boat-placement.css">
+    <link rel="stylesheet" href="assets/css/boat-placement/boat-placement-skins.css">
+
+    <script src="assets/js/data/config.js"></script>
+
+    <script src="assets/js/data-connector/error-handler.js"></script>
+    <script src="assets/js/data-connector/api-communication-abstractor.js"></script>
+    <script src="assets/js/data-connector/local-storage-abstractor.js"></script>
+
+    <script src="assets/js/screens/boat-placement-screen.js"></script>
+    <script src="assets/js/initialiser.js"></script>
+    <script src="assets/js/board/board-generator.js"></script>
+    <script src="assets/js/helpers/get-fleet.js"></script>
+    <script src="assets/js/helpers/get-coordinates.js"></script>
+    <script src="assets/js/cursor-controller.js"></script>
+    <script src="assets/js/board/randomizer.js"></script>
+    <script src="assets/js/board/board-reset.js"></script>
+    <script src="assets/js/helpers/navigation.js"></script>
+    <script src="assets/js/audio/audio-manager.js"></script>
+    <script src="assets/js/skins/skin-picker.js"></script>
+    <script src="assets/js/helpers/helpers.js"></script>
+    <script src="assets/js/board/board-size-picker.js"></script>
+    <script src="assets/js/board/ship-placer.js"></script>
+    <script src="assets/js/skins/boat-placement-skin-renderer.js"></script>
+
+
+</head>
+<body>
+<header class="buttons-header">
+</header>
+<main id="boat-placement">
+    <div class="place-boats-board">
+    </div>
+    <div class="buttons">
+        <template class="shuffle-refresh">
+            <div class="shuffle-reset">
+                <img src="" alt="shuffle" title="shuffle" id="shuffle">
+                <img src="" alt="refresh" title="refresh" id="refresh">
+            </div>
+        </template>
+        <template class="boats-board">
+            <div class="boats-board">
+                <div><img src="" alt="carrier" title="carrier"
+                          id="carrier"
+                          class="ships"></div>
+                <div><img src="" alt="battleship" title="battleship"
+                          id="battleship" class="ships"></div>
+                <div><img src="" alt="cruiser" title="cruiser"
+                          id="cruiser"
+                          class="ships"></div>
+                <div><img src="" alt="submarine" title="submarine"
+                          id="submarine" class="ships"></div>
+                <div><img src="" alt="destroyer" title="destroyer"
+                          id="destroyer" class="ships"></div>
+            </div>
+        </template>
+        <template id="nav-buttons">
+            <nav>
+                <img class="next-page-name-screen" src="" alt="next" title="next">
+                <img class="back-to-board-size" src="" alt="back" title="back" id="back">
+            </nav>
+        </template>
+    </div>
+
+</main>
+
+<div class="errormessages">
+    <p></p>
+</div>
+</body>
+</html>

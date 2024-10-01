@@ -1,0 +1,109 @@
+main, div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div{
+    justify-content: space-around;
+    width: 40%;
+}
+
+.skins img {
+    border-radius: .5rem;
+    animation: none;
+    opacity: 1;
+    height: 4vw;
+    width: 4vw;
+}
+
+.skins {
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    margin-left: 1rem;
+}
+
+.audio{
+    width: auto;
+}
+
+.title-banner{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;
+    height: 15%;
+    align-items: start;
+}
+
+
+a{
+    display: flex;
+    justify-content: center;
+}
+.banner{
+    width: 100%;
+    animation-name: toRight;
+    animation-duration: 100ms;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    z-index: 100;
+}
+
+.bee{
+    position: absolute;
+    right: 35vw;
+    margin-top: 2rem;
+    width: 5%;
+    animation-name: smash;
+    animation-duration: 500ms;
+    animation-delay: 2050ms;
+    animation-fill-mode: forwards;
+}
+
+.start{
+    width: 40%;
+    animation-name: lower;
+    animation-duration: 100ms;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes lower {
+    from {
+        opacity: 0;
+        transform: translateY(-31.25rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(30vh);
+    }
+}
+
+@keyframes toRight {
+    from {
+        opacity: 0;
+        transform: translateX(-62.5rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes smash {
+    from {
+        transform: translateX(0) translateY(0);
+    }
+    to {
+        transform: translateX(31.25rem) translateY(-31.25rem) rotate(1000deg);
+        display: none;
+    }
+}
